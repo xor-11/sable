@@ -1,7 +1,7 @@
 # Sable
 
 #### Video Demo: <URL HERE>
-
+#### Live Demo: https://xor-11.github.io/sable/
 #### Description:
 
 Sable is a turn-based ASCII roguelike dungeon crawler that was developed with TypeScript, React, and HTML5 Canvas as a CS50 final project. The role of an Engineer (`@`) is assumed as eight procedural floors of a failing circuit board, known as the Noise Floor, are descended. The objective is for the descent to be survived, tools and salvage to be collected, and The Kernel Panic (`K`) to be defeated on Floor 8.
