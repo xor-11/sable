@@ -1,6 +1,6 @@
 # Sable
 
-#### Video Demo: <URL HERE>
+#### Video Demo: https://youtu.be/mB7LnJTudnU/
 #### Live Demo: https://xor-11.github.io/sable/
 #### Description:
 
