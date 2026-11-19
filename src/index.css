@@ -1,0 +1,73 @@
+@import "tailwindcss";
+
+:root {
+  --bg-canvas: #0b0e14;
+  --bg-viewport: #07090d;
+  --bg-surface: #121721;
+  --bg-surface-elevated: #171e2b;
+  --border-hairline: #232b3a;
+  --text-primary: #e6edf3;
+  --text-secondary: #a3b0c2;
+  --text-muted: #768399;
+  --accent-primary: #38bdf8;
+  --accent-health: #34d399;
+  --accent-warn: #f59e0b;
+  --accent-danger: #f87171;
+  --accent-violet: #a78bfa;
+}
+
+@layer base {
+  html,
+  body,
+  #root {
+    height: 100%;
+    background-color: var(--bg-canvas);
+    color: var(--text-primary);
+    font-family: "Plus Jakarta Sans", -apple-system, BlinkMacSystemFont, sans-serif;
+  }
+
+  h1,
+  h2,
+  h3,
+  .font-display {
+    font-family: "Outfit", "Plus Jakarta Sans", sans-serif;
+    text-wrap: balance;
+  }
+
+  code,
+  pre,
+  kbd,
+  .font-mono {
+    font-family: "JetBrains Mono", ui-monospace, SFMono-Regular, Menlo, monospace;
+    font-variant-numeric: tabular-nums;
+  }
+}
+
+/* Custom crisp terminal scrollbar */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+
+::-webkit-scrollbar-track {
+  background: #0b0e14;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #232b3a;
+  border-radius: 3px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #334155;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+  }
+}
