@@ -61,13 +61,3 @@ Install dependencies and start the development server:
 npm install
 npm run dev
 ```
-
-Run the headless test suite and TypeScript type check:
-
-```bash
-npm test
-npm run lint
-npm run build
-```
-
-To deploy on GitHub Pages, push this repository to GitHub with `main` as the default branch, then go to **Settings > Pages** and set the source to **GitHub Actions**. The included `.github/workflows/deploy.yml` workflow builds and publishes the site automatically on every push.
